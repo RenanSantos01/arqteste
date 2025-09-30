@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+}
+
+.foto{
+    width: 30%;
+}
+
+.foto img{
+    width: 30%;
+}
+
+.navegacao{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+#nome_usuario{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+
+#email_usuario{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+#telefone_usuario{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+#opcoes{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+#mensagem{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.box{
+    display: flex;
+    margin: 5px;
+    border-radius: 7px;
+    padding: 10px 80px;
+    border-color: white;
+    color: white;
+    background-color: #1351d8;
+}
+
+.box:hover {
+    background-color:rgb(14, 0, 90);
+    color: #ffffff;
+    border-color: rgb(14, 0, 90);
+}
+
+.box:active {
+    background-color:white;
+    color: #1351d8;
+    border-color: #1351d8;
+}
+
+footer{
+    display: flex;
+    bottom: 0%;
+    position: fixed;
+    background-color: #1b357e;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+
+
+.redes p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-rodape{
+    display: flex;
+    color: white;
+    align-items: end;
+}
+
+@media (max-width: 750px){
+    .foto img{
+        width: 70px;
+     }
+ 
+     .navegacao a {
+         font-size: 15px;
+     }
+
+     main{
+        flex-direction: column;
+     }
+
+     .redes p {
+        font-size: small;
+     }
+
+     .redes img{
+        width: 25px;
+     }
+
+     .img-rodape{
+        font-size: small;
+     }
+
+     .img-rodape img{
+        width: 55px;
+     }
+}
